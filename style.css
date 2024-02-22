@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    font-family: "FigTree"; 
+    font-size: 16px;
+}
+
+body {
+
+    width: 100vw; 
+    height: 100vh; 
+
+    margin: 0; 
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+    width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 5px 5px;
+}
+
+.illustration {
+
+    border-radius: 10px;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+p {
+    color: hsl(0, 0%, 50%);
+}
+
+.attribute {
+
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex; 
+}
+
+.cardContainer {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100vw; 
+    height: 100vh;
+}
+
+.profilePic {
+    width: 30px;
+    height: 30px;
+}
+
+.mediaTag {
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
